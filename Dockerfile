@@ -6,7 +6,7 @@ RUN mkdir -p /usr/src/app
 # Set app directory as working directory
 WORKDIR /usr/src/app
 
-ARG VOCBENCH_VERSION=11.4.0
+ARG VOCBENCH_VERSION=12.2.0
 
 # Download VocBench, unzip, remove
 RUN wget https://bitbucket.org/art-uniroma2/vocbench3/downloads/vocbench3-${VOCBENCH_VERSION}-full.zip && \
